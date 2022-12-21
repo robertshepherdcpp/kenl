@@ -47,5 +47,11 @@
     <ClInclude Include="operation-parse_classes.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="operation-clear_screen.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="operation-pause_screen.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

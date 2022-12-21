@@ -137,12 +137,14 @@
   <ItemGroup>
     <ClInclude Include="gui-input.hpp" />
     <ClInclude Include="operation-ascii.hpp" />
+    <ClInclude Include="operation-clear_screen.hpp" />
     <ClInclude Include="operation-input_obj.hpp" />
     <ClInclude Include="operation-operation_parsed.hpp" />
     <ClInclude Include="operation-operation_parse_object.hpp" />
     <ClInclude Include="operation-parse.hpp" />
     <ClInclude Include="operation-parse_classes.hpp" />
     <ClInclude Include="operation-parse_object.hpp" />
+    <ClInclude Include="operation-pause_screen.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

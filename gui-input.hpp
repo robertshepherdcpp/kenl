@@ -1,3 +1,5 @@
+#pragma once
+
 #include"gui-shapes.hpp" // knl::rectangle
 #include"operation-input_obj.hpp" // knl::input_obj
 

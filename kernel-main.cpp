@@ -5,6 +5,8 @@
 #include"operation-input_obj.hpp"
 #include"operation-parse_object.hpp"
 #include"operation-operation_parsed.hpp"
+#include"operation-clear_screen.hpp"
+#include"operation-pause_screen.hpp"
 
 int main()
 {
@@ -19,7 +21,8 @@ int main()
 		auto x = knl::input_box();
 		auto y = knl::parse(x);
 		operation_parse(y);
-
+		knl::pause();
+		knl::clear();
 	}
 
 

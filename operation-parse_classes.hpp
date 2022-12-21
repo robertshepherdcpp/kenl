@@ -3,6 +3,7 @@
 #include<string> // std::string
 
 #include"gui-shapes.hpp"
+#include"operation-clear_screen.hpp"
 
 namespace knl
 {
@@ -19,14 +20,17 @@ namespace knl
 		{
 			if (operation == " triangle")
 			{
+				clear();
 				print_triangle(5, 10);
 			}
 			if (operation == " square")
 			{
+				clear();
 				print_square(5);
 			}
 			if (operation == " rectangle")
 			{
+				clear();
 				print_rectangle(5, 10);
 			}
 		}
