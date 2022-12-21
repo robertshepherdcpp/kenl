@@ -38,5 +38,14 @@
     <ClInclude Include="operation-parse_object.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="operation-operation_parsed.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="operation-operation_parse_object.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="operation-parse_classes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

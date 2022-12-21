@@ -4,6 +4,7 @@
 #include"operation-ascii.hpp"
 #include"operation-input_obj.hpp"
 #include"operation-parse_object.hpp"
+#include"operation-operation_parsed.hpp"
 
 int main()
 {
@@ -12,12 +13,14 @@ int main()
 	knl::print_rectangle(20, 30);
 	knl::print_square(20);
 	*/
+	while (true)
+	{
 
-	auto x = knl::input_box();
-	auto y = knl::parse(x);
+		auto x = knl::input_box();
+		auto y = knl::parse(x);
+		operation_parse(y);
 
-	std::cout << y.command << y.operation << "\n";
-	// std::cout << y;
+	}
 
 
 }
